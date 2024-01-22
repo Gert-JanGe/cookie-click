@@ -1,6 +1,6 @@
 let score=0;
 
-function handleCookieClick() {
-    score++;
+const handleCookieClick = () => {
+    score = score + 1;
     console.log(score);
 }
