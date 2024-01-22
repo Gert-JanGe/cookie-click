@@ -1,6 +1,6 @@
-let score=0;
+let totalScore=0;
 
 function handleCookieClick() {
-    score++;
-    console.log(score);
+    totalScore += 1;
+    console.log(totalScore);
 }
